@@ -1,0 +1,63 @@
+.about-flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.text-flex{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   word-wrap: break-word;
+
+}
+
+.about-article{
+   padding: 20px;
+   margin: 20px;
+   font-size: 24px;
+   word-wrap: break-word;
+   border-top: 0px;
+}
+
+.findme {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   align-content: center;
+}
+
+.find-icon {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   width: 100px;
+   height: 100px;
+   margin: 20px;
+
+   -webkit-transition-property: height, width;
+   -webkit-transition-duration: 1s;
+   -moz-transition-property: height, width;
+   -moz-transition-duration: 1s;
+   transition-property: height, width;
+   transition-duration: 0.3s;
+   
+   
+}
+
+.find-icon:hover {
+
+   width: 150px;
+   height: 150px;
+
+   -webkit-transition-property: height, width;
+   -webkit-transition-duration: 1s;
+   -moz-transition-property: height, width;
+   -moz-transition-duration: 1s;
+   transition-property: height, width;
+   transition-duration: 0.3s;
+}

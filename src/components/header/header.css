@@ -1,0 +1,14 @@
+.header {
+   display: flex;
+   min-width: 50%;
+   padding: 15px;
+   font-size: 3vh;
+   height: 50px;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #469aae;
+   font-family: 'Fira Code';
+
+   border-bottom: 5px solid #41727D;
+}
